@@ -1,6 +1,6 @@
 # Custom Game of Life
 
-My Custom Game of Life is a modified version of the original John [John Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) which has additional types of cells with their own rules. The game is played one a board with cells where each cell can have different states(cell types). Each generation the board is calculated new while cells can die, revive or spawn.
+My Custom Game of Life is a modified version of the original [John Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) which has additional types of cells with their own rules. The game is played one a board with cells where each cell can have different states(cell types). Each generation the board is calculated new while cells can die, revive or spawn.
 
 ## Download
 
