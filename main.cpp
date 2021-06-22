@@ -115,7 +115,7 @@ bool nextGeneration() {
     for (int i = 0; i < bombs.size(); i++) {
         for (int k = ((bombs[i].first == 0) ? 0 : -1); k < ((bombs[i].first == H-1) ? 1 : 2); k++) {
                 for (int l = ((bombs[i].second == 0) ? 0 : -1); l < ((bombs[i].second == W-1) ? 1 : 2); l++) {
-                    if (tmp_map[bombs[i].first][bombs[i].second] == '0' || tmp_map[bombs[i].first][bombs[i].second] == '4') map[bombs[i].first+k][bombs[i].second+l] = '#';
+                    if (tmp_map[bombs[i].first+k][bombs[i].second+l] == '0' || tmp_map[bombs[i].first+k][bombs[i].second+l] == '4') map[bombs[i].first+k][bombs[i].second+l] = '#';
                 }
             }
     }
@@ -128,7 +128,7 @@ int main() {
     printMap();
     while (nextGeneration()) {
         printMap();
-        sleep(800);
+        sleep(500);
     }
     return 0;
 }
