@@ -4,7 +4,9 @@ My Custom Game of Life is a modified version of the original John [John Conway's
 
 ## Download
 
-Coming Soon
+You can download the latest executable here: [https://github.com/Error-Cookie/custom-game-of-life/releases/tag/v1.0](https://github.com/Error-Cookie/custom-game-of-life/releases/tag/v1.0)
+
+If you want to make changes to the code(e.g. change constants) you need to compile the sourcecode yourself.
 
 ## Usage
 
